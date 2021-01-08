@@ -1,0 +1,45 @@
+.carre1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  height: 250px;
+}
+
+.carre2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  height: 250px;
+}
+
+.carre1 > div {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px 0px grey;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.carre2 > div {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px 0px grey;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1.2em;
+}

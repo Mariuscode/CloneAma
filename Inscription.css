@@ -1,0 +1,18 @@
+.inscriptionForm {
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: space-between;
+}
+
+.inscriptionForm > * {
+  margin: 10px 0;
+}
+
+label abbr {
+  position: absolute;
+  left: 41em;
+  color: orange;
+}

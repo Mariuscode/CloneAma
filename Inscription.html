@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./Ensemble.css">
+    <link rel="stylesheet" href="./Inscription.css">
+</head>
+
+<body>
+    <header>
+        <a href="./Index.html" style="color: white;">Acceuil</a>
+        <div>Inscription</div>
+        <form action="" method="POST">
+            <label for="Recherche">Recherche</label>
+            <input type="text" id="Recherche" />
+        </form>
+    </header>
+    <main>
+        <h1>Inscrivez-vous !</h1>
+        <form action="" method="post" class="inscriptionForm">
+            <label for="NomUtilisateur">Nom d'utilisateur (obligatoire)<abbr title="(obligatoire)">*</abbr></label>
+            <input type="text" id="NomUtilisateur" required/>
+            <label for="password">Mot de passe (obligatoire)<abbr title="(obligatoire)">*</abbr></label>
+            <input type="password" id="password" required/>
+            <label for="age">Age</label>
+            <input type="number" id="age" min="0" step="1">
+            <input type="submit" />
+        </form>
+    </main>
+    <footer>
+        <div>Contact</div>
+        <div>Mentions légales</div>
+    </footer>
+</body>
+
+</html>
